@@ -2,14 +2,21 @@
 
 This repository contains the practical exercises and experiments for the AI/ML lab coursework for Semester 3. It includes Jupyter notebooks focused on core machine learning and data science workflows, along with supporting datasets.
 
-## Folder structure
+## Folder structure and file purposes
 
-- `experiment-01.ipynb` — Experiment 1 notebook
-- `experiment-02.ipynb` — Experiment 2 notebook
-- `experiment-03.ipynb` — Experiment 3 notebook
-- `experiment-04.ipynb` — Experiment 4 notebook
-- `data/` — Input datasets and supporting files used by the experiments
-- `.venv/` — Local virtual environment for project dependencies
+- `experiment-01.ipynb` — Introduction to dataset exploration. Used to load CSV files, inspect rows/columns, and understand the basic structure and statistics of the data using methods such as `df.describe()` and `df.info()`.
+- `experiment-02.ipynb` — Missing value analysis and data cleaning. Used to detect null entries, understand their impact, and prepare the dataset for further processing.
+- `experiment-03.ipynb` — Exploratory data analysis and preprocessing workflow. Used for visualizing patterns, checking relationships in the dataset, and applying model-selection or preprocessing steps before training.
+- `experiment-04.ipynb` — Customer churn prediction and business insight project. Used to train classification/regression models on the telecom dataset to predict churn and analyze business-related insights.
+- `data/` — Contains raw and processed datasets used by the experiments. These files provide the input data for analysis, training, testing, and predictions.
+- `data/telco_data.csv` — Telecom customer dataset used in the churn prediction project. It includes customer attributes and churn-related information.
+- `data/train.csv` — Training split of the dataset used to train machine learning models.
+- `data/test.csv` — Testing split used to evaluate model performance on unseen data.
+- `data/Predictions.csv` — Output file containing model predictions generated from the trained model.
+- `data/car_dataset.data` — A car-related dataset used for data analysis and model experimentation.
+- `data/dataset_1.data` — Additional dataset file used for practice, experimentation, and general data analysis tasks.
+- `.venv/` — Local Python virtual environment for installing and managing project dependencies.
+- `README.md` — Project documentation explaining the purpose, files, and workflow of the lab exercises.
 
 ## Getting started
 
